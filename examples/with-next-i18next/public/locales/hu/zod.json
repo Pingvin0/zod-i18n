@@ -1,0 +1,113 @@
+{
+  "errors": {
+    "invalid_type": "Elvárt típus {{expected}}, kapott típus {{received}}",
+    "invalid_type_received_undefined": "Kötelező",
+    "invalid_type_received_null": "Kötelező",
+    "invalid_literal": "Hibás konkrét érték, elvárt érték {{expected}}",
+    "unrecognized_keys": "Ismeretlen kulcs(ok) az objektumban: {{- keys}}",
+    "invalid_union": "Hibás bemenet",
+    "invalid_union_discriminator": "Hibás diszkriminátor. Elvárt érték {{- options}}",
+    "invalid_enum_value": "Hibás enumerációs érték. Elvárt érték(ek) {{- options}}, kapott érték '{{received}}'",
+    "invalid_arguments": "Hibás függvény argumentum",
+    "invalid_return_type": "Hibás függvény visszatérési típus",
+    "invalid_date": "Hibás dátum",
+    "custom": "Hibás bemenet",
+    "invalid_intersection_types": "Nem sikerült a metszet eredményeket egyesíteni",
+    "not_multiple_of": "A szám a {{multipleOf}} többszöröse kell hogy legyen",
+    "not_finite": "A szám véges kell hogy legyen",
+    "invalid_string": {
+      "email": "Hibás {{validation}}",
+      "url": "Hibás {{validation}}",
+      "uuid": "Hibás {{validation}}",
+      "cuid": "Hibás {{validation}}",
+      "regex": "Hibás",
+      "datetime": "Hibás {{validation}}",
+      "startsWith": "Hibás bemenet: \"{{startsWith}}\"-el kell kezdődnie",
+      "endsWith": "Hibás bemenet: \"{{endsWith}}\"-el kell végződnie"
+    },
+    "too_small": {
+      "array": {
+        "exact": "A tömbnek pontosan {{minimum}} elemet kell tartalmaznia",
+        "inclusive": "A tömbnek legalább {{minimum}} elemet kell tartalmaznia",
+        "not_inclusive": "A tömbnek több mint {{minimum}} elemet kell tartalmaznia"
+      },
+      "string": {
+        "exact": "A szövegnek pontosan {{minimum}} karaktert kell tartalmaznia",
+        "inclusive": "A szövegnek legalább {{minimum}} karaktert kell tartalmaznia",
+        "not_inclusive": "A szövegnek több mint {{minimum}} karaktert kell tartalmaznia"
+      },
+      "number": {
+        "exact": "A szám pontosan {{minimum}} kell hogy legyen",
+        "inclusive": "A szám legalább {{minimum}} kell hogy legyen",
+        "not_inclusive": "A szám több mint {{minimum}} kell hogy legyen"
+      },
+      "set": {
+        "exact": "Hibás bemenet",
+        "inclusive": "Hibás bemenet",
+        "not_inclusive": "Hibás bemenet"
+      },
+      "date": {
+        "exact": "A dátum pontosan {{- minimum, datetime}} kell hogy legyen",
+        "inclusive": "A dátum legalább {{- minimum, datetime}} kell hogy legyen",
+        "not_inclusive": "A dátum később mint {{- minimum, datetime}} kell hogy legyen"
+      }
+    },
+    "too_big": {
+      "array": {
+        "exact": "A tömbnek pontosan {{maximum}} elemet kell tartalmaznia",
+        "inclusive": "A tömb {{maximum}} elemet tartalmazhat",
+        "not_inclusive": "A tömb kevesebb mint {{maximum}} elemet tartalmazhat"
+      },
+      "string": {
+        "exact": "A szövegnek pontosan {{maximum}} karaktert kell tartalmaznia",
+        "inclusive": "A szöveg maximum {{maximum}} karaktert tartalmazhat",
+        "not_inclusive": "A szöveg kevesebb mint {{maximum}} karaktert tartalmazhat"
+      },
+      "number": {
+        "exact": "A szám pontosan {{maximum}} kell hogy legyen",
+        "inclusive": "A szám maximum {{maximum}} lehet",
+        "not_inclusive": "A szám kevesebb kell hogy legyen mint {{maximum}}"
+      },
+      "set": {
+        "exact": "Hibás bemenet",
+        "inclusive": "Hibás bemenet",
+        "not_inclusive": "Hibás bemenet"
+      },
+      "date": {
+        "exact": "A dátum pontosan {{- minimum, datetime}} kell hogy legyen",
+        "inclusive": "A dátum legkésőbb {{- maximum, datetime}} lehet",
+        "not_inclusive": "A dátum korábban kell hogy legyen mint {{- maximum, datetime}}"
+      }
+    }
+  },
+  "validations": {
+    "email": "email",
+    "url": "url",
+    "uuid": "uuid",
+    "cuid": "cuid",
+    "regex": "regex",
+    "datetime": "datetime"
+  },
+  "types": {
+    "function": "function",
+    "number": "number",
+    "string": "string",
+    "nan": "nan",
+    "integer": "integer",
+    "float": "float",
+    "boolean": "boolean",
+    "date": "date",
+    "bigint": "bigint",
+    "undefined": "undefined",
+    "symbol": "symbol",
+    "null": "null",
+    "array": "array",
+    "object": "object",
+    "unknown": "unknown",
+    "promise": "promise",
+    "void": "void",
+    "never": "never",
+    "map": "map",
+    "set": "set"
+  }
+}
